@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+$mainBlack:#222;
+$mainGreen:#82b340;
+$mainWhite:#fff;
+$mainGrey:#ececec;
+
+body{
+    background: $mainWhite;
+    color: $mainBlack;
+    font-family: 'Lobster', cursive;
+}
+
+.img-container1{
+    position: relative;
+}
+
+.notToSee{
+    position: absolute;
+    display: block;
+    top:10%;
+    right:35%;
+    left:35%;
+    color: $mainGreen;
+    font-size: 2rem;
+    text-align: center;      
+}
+
+.amer{
+    width: 100%
+}
